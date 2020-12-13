@@ -40,8 +40,8 @@
       <div class="container-fluid p-3 d-flex">
         <section class="container-fluid">
           <div class="row">
-            <div class="col mb-1 bg-dark">
-              <div class="row pl-0 pb-1 mt-0 pr-1">
+            <div class="col mb-1 bg-light">
+              <div class="row pl-1 pb-1 mt-2 pr-1">
                 <div class="col bg-light border border-dark">
                   <div class="row pl-2 pt-0 pb-2">
                     <a class="col pl-0 mr-0 pr-0 mt-2" href="#"
@@ -786,25 +786,20 @@
             </div>
             <div class="col mb-1 mr-1">
               <div class="row">
-                <div class="col-sm-5 bg-light pt-4 pb-3">
-                  <a class="col p-0" href="#"
+                <div class="container-fluid bg-light pt-3 pb-3 pr-3 d-flex">
+                  <a class="" href="#"
                     ><img
                       class="img-fluid"
                       src="https://avatarfiles.alphacoders.com/105/105076.jpg"
-                      width="200"
-                      height="200"
-                      alt=""
+                      height="400"
+                      width="400"
                     />
                   </a>
-                </div>
-                <div class="col bg-light pl-0 pt-3 pb-2">
-                  <form>
+                  <form class="pl-3 container-fluid">
                     <div class="form-group mb-0">
-                      <label for="exampleInputEmail1 mb-0"
-                        ><small>Name</small></label
-                      >
+                      <label for="name mb-0"><small>Name</small></label>
                       <input
-                        class="form-control form-control-sm pt-1"
+                        class="form-control form-fluid form-control-sm pt-1"
                         type="text"
                         placeholder="Rayman ofcourse"
                       />
@@ -812,7 +807,7 @@
                     <div class="form-group mb-0">
                       <label
                         for="example-date-input"
-                        class="from-control formcontrol-sm-0"
+                        class="from-control form-control-sm"
                         ><small>Birthday</small></label
                       >
                       <input
@@ -875,34 +870,249 @@
               </div>
             </div>
             <div class="w-100"></div>
-            <div class="col bg-light mr-1 pl-0 pr-0">
-              <table class="table">
+            <div class="col bg-light mr-1 pl-0 pr-0 mt-1">
+              <nav class="navbar-fluid navbar-dark bg-light d-flex">
+                <div class="p-1 pl-3 text-dark">
+                  <strong><small>Visits</small></strong>
+                </div>
+              </nav>
+              <table class="table small">
                 <thead>
                   <tr class="bg-secondary text-light">
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Diagnose</th>
+                    <th scope="col">Perks</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="orange"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                    </td>
+                    <td>25 November</td>
+                    <td>Mr.Hedgehog</td>
+                    <td>hedghog@runner.com</td>
+                    <td>To spikey, can't diagnose</td>
+                    <td>Incredible speed makes blasters on his feet</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="orange"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                    </td>
+                    <td>25 November</td>
+                    <td>Agent 47</td>
+                    <td>agent@killonsight.com</td>
+                    <td>Bowlingball syndrom</td>
+                    <td>Patient has problems with loss of hair</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
+                    <td>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="orange"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                    </td>
+                    <td>26 November</td>
+                    <td>Mr.Kratos</td>
+                    <td>Kratos@godofwar.com</td>
+                    <td>Godlike</td>
+                    <td>Patient can't get sick, interesting study</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="orange"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                    </td>
+                    <td>26 November</td>
+                    <td>Mr.Mario</td>
+                    <td>Mario@bros.com</td>
+                    <td>Addiction</td>
+                    <td>Eats mushrooms to lvl up... this is problematic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="orange"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                    </td>
+                    <td>26 November</td>
+                    <td>Mr.Bandicoot</td>
+                    <td>Bandicoot@Crash.com</td>
+                    <td>Platformer</td>
+                    <td>
+                      Likes to get squashed, beaten, zapped, just to reach his
+                      goals
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="orange"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                    </td>
+                    <td>27 November</td>
+                    <td>Mr.Kong</td>
+                    <td>Donkey@Kong.com</td>
+                    <td>Alcoholic</td>
+                    <td>
+                      Drinks barrels of alcohol and then throws them, duck!!!
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="orange"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                    </td>
+                    <td>27 November</td>
+                    <td>Geralt</td>
+                    <td>Geralt@witcher.com</td>
+                    <td>No feelings</td>
+                    <td>Likes killing monsters... and women...</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="orange"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                    </td>
+                    <td>27 November</td>
+                    <td>Ezio</td>
+                    <td>Ezio@Assassin.com</td>
+                    <td>Can't find him</td>
+                    <td>Patient is being stealth in the room</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="orange"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                    </td>
+                    <td>27 November</td>
+                    <td>Miss croft</td>
+                    <td>lara@croft.com</td>
+                    <td>Bruised</td>
+                    <td>Dangerous adventures made her get bruised</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="orange"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                    </td>
+                    <td>27 November</td>
+                    <td>Ezio</td>
+                    <td>Ezio@Assassin.com</td>
+                    <td>Can't find him</td>
+                    <td>Patient is being stealth in the room</td>
                   </tr>
                 </tbody>
               </table>
